@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ape.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "MinecraftClientMixin",
+    "RenderSystemMixin",
+    "InGameHudMixin",
+    "KeyBindingMixin",
+    "LivingEntityMixin",
+    "MinecraftClientAccessor",
+    "PlayerEntityMixin",
+    "ClientConnectionMixin",
+    "ClientEntityMixin",
+    "EntityRendererMixin",
+    "TickHandlerMixin",
+    "LivingEntityRendererMixin",
+    "LightmapTextureManagerMixin",
+    "EntityMixin",
+    "MouseMixin",
+    "KeyboardInputMixin",
+    "ClientPlayerInteractionMixin",
+    "BlockItemMixin",
+    "GameRendererMixin",
+    "WorldRendererMixin",
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "ape-refmap.json"
+}
